@@ -21,9 +21,11 @@
   [data-theme="dark"] #page-header::before {
     background: transparent !important;
   }
-body {
-        background-image: url('https://typra-ash.oss-cn-wuhan-lr.aliyuncs.com/1.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+  body {
+    background-image: url('https://typra-ash.oss-cn-wuhan-lr.aliyuncs.com/home_bg.webp');   
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+  
