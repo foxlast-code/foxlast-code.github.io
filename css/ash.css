@@ -22,9 +22,9 @@
     background: transparent !important;
   }
   body {
-    background-image: url('https://typra-ash.oss-cn-wuhan-lr.aliyuncs.com/home_bg.webp');   
+    background-image: url('https://typra-ash.oss-cn-wuhan-lr.aliyuncs.com/dm2.webp');   
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
