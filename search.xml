@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>枚举算法</title>
+      <link href="/2024/05/23/%E6%9E%9A%E4%B8%BE%E7%AE%97%E6%B3%95/"/>
+      <url>/2024/05/23/%E6%9E%9A%E4%B8%BE%E7%AE%97%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-枚举算法思想"><a href="#1-枚举算法思想" class="headerlink" title="1.枚举算法思想"></a>1.枚举算法思想</h2><p>枚举（enumeration），又被称为穷举。</p><p>是一种很朴素的解题思想，当问题存在大量的可能答案时，而暂时又无法用逻辑方法排除大部分候选答案时，就<strong>不得不采用逐一检验这些答案的策略</strong>，这就是枚举算法的思想。</p><blockquote><p>当不考虑算法的优劣性，即时间空间复杂度，运行代码的快慢，则可用枚举暴力求解。</p></blockquote><h2 id="2-枚举算法实现要点"><a href="#2-枚举算法实现要点" class="headerlink" title="2.枚举算法实现要点"></a>2.枚举算法实现要点</h2><p>实现枚举算法时，一定要注意：</p><ol><li><strong>为保证结果正确，应做到既不重复又不遗漏。</strong></li><li><strong>为减少程序运行时间，应j尽量减少枚举的次数。</strong></li></ol><h3 id="（1）既不重复又不遗漏"><a href="#（1）既不重复又不遗漏" class="headerlink" title="（1）既不重复又不遗漏"></a>（1）既不重复又不遗漏</h3><p>例如，求x^2+y^2 = 2000 的正整数解，如果互换x和y视为同一组解，如（8，44）和（44，8），那么y就不能从1枚举到44，否则得到的解就重复了，y只能从1枚举到x（或从x枚举到44）。</p><h3 id="（2）尽量减少枚举次数"><a href="#（2）尽量减少枚举次数" class="headerlink" title="（2）尽量减少枚举次数"></a>（2）尽量减少枚举次数</h3><blockquote><p>一般有两种方法 </p></blockquote><ol><li><strong>减少枚举量（即循环层数）</strong></li><li><strong>减少枚举的范围（即某层循环的次数）</strong></li></ol><p>对于第一种：如果内层循环的量可以由外层循环的量确定，那么内层循环就可以取消了，即减少变量。</p><p>对于第二种：如果能提前知道某种方案不可能求出解，则不能进行枚举或提前结束当前的枚举，减少不必要的枚举。</p><blockquote><p>下篇文章为枚举算法例题</p></blockquote><h2 id="小A的蓝桥系列持续更新"><a href="#小A的蓝桥系列持续更新" class="headerlink" title="小A的蓝桥系列持续更新"></a>小A的蓝桥系列持续更新</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 蓝桥系列 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 枚举算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>建站初衷</title>
       <link href="/2024/05/22/%E5%BB%BA%E7%AB%99%E5%88%9D%E8%A1%B7/"/>
       <url>/2024/05/22/%E5%BB%BA%E7%AB%99%E5%88%9D%E8%A1%B7/</url>
